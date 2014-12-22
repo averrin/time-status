@@ -1,13 +1,12 @@
 {
   "name": "time-status",
   "main": "./lib/time-status",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Displays the current time in the status bar.",
   "repository": "https://github.com/JoeFyhrCeesay/time-status",
   "license": "Public domain",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
