@@ -1,7 +1,7 @@
 {
   "name": "time-status",
   "main": "./lib/time-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Displays the current time in the status bar.",
   "repository": "https://github.com/JoeFyhrCeesay/time-status",
   "license": "Public domain",
