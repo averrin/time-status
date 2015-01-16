@@ -4,7 +4,7 @@ class TimeStatus
   # Activates the package.
   activate: ->
     atom.packages.once 'activated', =>
-      {statusBar} = atom.workspaceView
+      statusBar = document.querySelector("status-bar")
       if statusBar?
         TimeStatusView = require './time-status-view'
         @view = new TimeStatusView
