@@ -11,18 +11,19 @@ class TimeStatusView extends HTMLElement
   createSpan: ->
     span = document.createElement('span')
     span.classList.add('time-status', 'inline-block')
-    span.textContent = 'Time status'
+    span.textContent = @getTime()
     @appendChild(span)
 
   update: ->
     setInterval ( =>
-      currentDate = new Date
-      currentTime = currentDate.getHours() + ":" + currentDate.getMinutes()
-      currentTime = currentTime.replace( /\b(\d)\b/g, "0$1" )
-      currentTime.replace /\s/g, ""
-
-      @time.textContent = currentTime
+      @time.textContent = @getTime()
     ), 1000
+
+  getTime: ->
+    language = atom.config.get('time-status.language') or navigator.language
+    (new Date).toLocaleTimeString language,
+      hour: '2-digit'
+      minute:'2-digit'
 
 module.exports = document.registerElement('time-status',
                                           prototype: TimeStatusView.prototype,
