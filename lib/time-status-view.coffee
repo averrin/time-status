@@ -16,13 +16,13 @@ class TimeStatusView extends HTMLElement
 
   update: ->
     setInterval ( =>
-      currentDate = new Date
-      currentTime = currentDate.getHours() + ":" + currentDate.getMinutes()
-      currentTime = currentTime.replace( /\b(\d)\b/g, "0$1" )
-      currentTime.replace /\s/g, ""
-
-      @time.textContent = currentTime
+      @time.textContent = @getTime()
     ), 1000
+
+  getTime: ->
+    (new Date).toLocaleTimeString navigator.language,
+      hour: '2-digit'
+      minute:'2-digit'
 
 module.exports = document.registerElement('time-status',
                                           prototype: TimeStatusView.prototype,
