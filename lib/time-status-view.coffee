@@ -11,7 +11,7 @@ class TimeStatusView extends HTMLElement
   createSpan: ->
     span = document.createElement('span')
     span.classList.add('time-status', 'inline-block')
-    span.textContent = 'Time status'
+    span.textContent = @getTime()
     @appendChild(span)
 
   update: ->
