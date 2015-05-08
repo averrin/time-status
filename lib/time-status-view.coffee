@@ -20,7 +20,8 @@ class TimeStatusView extends HTMLElement
     ), 1000
 
   getTime: ->
-    (new Date).toLocaleTimeString navigator.language,
+    language = atom.config.get('time-status.language') or navigator.language
+    (new Date).toLocaleTimeString language,
       hour: '2-digit'
       minute:'2-digit'
 
