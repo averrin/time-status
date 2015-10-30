@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Time status	/home/user/.atom/packages/time-status/README.md	/^# Time status$/;"	function	line:1
+.time-status	/home/user/.atom/packages/time-status/styles/time-status.less	/^.time-status {$/;"	function	line:7
+1.0.0 - Initial Release	/home/user/.atom/packages/time-status/CHANGELOG.md	/^## 1.0.0 - Initial Release$/;"	function	line:1
+1.0.1 - Replace deprecated call	/home/user/.atom/packages/time-status/CHANGELOG.md	/^## 1.0.1 - Replace deprecated call$/;"	function	line:3
+1.0.2 - Fix deprecation issues	/home/user/.atom/packages/time-status/CHANGELOG.md	/^## 1.0.2 - Fix deprecation issues$/;"	function	line:8
+1.1.0 - Use locale instead of hardcoded 24-hour clock	/home/user/.atom/packages/time-status/CHANGELOG.md	/^# 1.1.0 - Use locale instead of hardcoded 24-hour clock$/;"	function	line:12
+name	/home/user/.atom/packages/time-status/package.json	/^  "name": "time-status",$/;"	function	line:2
+main	/home/user/.atom/packages/time-status/package.json	/^  "main": ".\/lib\/time-status",$/;"	function	line:3
+version	/home/user/.atom/packages/time-status/package.json	/^  "version": "1.1.0",$/;"	function	line:4
+description	/home/user/.atom/packages/time-status/package.json	/^  "description": "Displays the current time in the status bar.",$/;"	function	line:5
+repository	/home/user/.atom/packages/time-status/package.json	/^  "repository": {$/;"	function	line:6
+type	/home/user/.atom/packages/time-status/package.json	/^    "type": "git",$/;"	function	line:7
+url	/home/user/.atom/packages/time-status/package.json	/^    "url": "git+https:\/\/github.com\/JoeFyhrCeesay\/time-status.git"$/;"	function	line:8
+license	/home/user/.atom/packages/time-status/package.json	/^  "license": "Public domain",$/;"	function	line:10
+engines	/home/user/.atom/packages/time-status/package.json	/^  "engines": {$/;"	function	line:11
+atom	/home/user/.atom/packages/time-status/package.json	/^    "atom": ">0.50.0"$/;"	function	line:12
+dependencies	/home/user/.atom/packages/time-status/package.json	/^  "dependencies": {},$/;"	function	line:14
+readme	/home/user/.atom/packages/time-status/package.json	/^  "readme": "# Time status\\n\\nTime status is a package for the Atom text editor that displays the current time in the status bar.\\n",$/;"	function	line:15
+readmeFilename	/home/user/.atom/packages/time-status/package.json	/^  "readmeFilename": "README.md",$/;"	function	line:16
+bugs	/home/user/.atom/packages/time-status/package.json	/^  "bugs": {$/;"	function	line:17
+url	/home/user/.atom/packages/time-status/package.json	/^    "url": "https:\/\/github.com\/JoeFyhrCeesay\/time-status\/issues"$/;"	function	line:18
+homepage	/home/user/.atom/packages/time-status/package.json	/^  "homepage": "https:\/\/github.com\/JoeFyhrCeesay\/time-status#readme",$/;"	function	line:20
+_id	/home/user/.atom/packages/time-status/package.json	/^  "_id": "time-status@1.1.0",$/;"	function	line:21
+_shasum	/home/user/.atom/packages/time-status/package.json	/^  "_shasum": "b40ec99bd7423e8f3def4844874b59f196f2992e",$/;"	function	line:22
+_resolved	/home/user/.atom/packages/time-status/package.json	/^  "_resolved": "file:..\/d-115815-15343-10xiww1\/package.tgz",$/;"	function	line:23
+_from	/home/user/.atom/packages/time-status/package.json	/^  "_from": "..\/d-115815-15343-10xiww1\/package.tgz",$/;"	function	line:24
+_atomModuleCache	/home/user/.atom/packages/time-status/package.json	/^  "_atomModuleCache": {$/;"	function	line:25
+version	/home/user/.atom/packages/time-status/package.json	/^    "version": 1,$/;"	function	line:26
+dependencies	/home/user/.atom/packages/time-status/package.json	/^    "dependencies": [],$/;"	function	line:27
+extensions	/home/user/.atom/packages/time-status/package.json	/^    "extensions": {$/;"	function	line:28
+.coffee	/home/user/.atom/packages/time-status/package.json	/^      ".coffee": [$/;"	function	line:29
+.json	/home/user/.atom/packages/time-status/package.json	/^      ".json": [$/;"	function	line:33
+folders	/home/user/.atom/packages/time-status/package.json	/^    "folders": []$/;"	function	line:37
